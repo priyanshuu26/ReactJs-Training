@@ -8,7 +8,7 @@ function Navbar() {
         <b>Home</b>
       </Link>
       <Link to="/about">
-        <b>About</b>{' '}
+        <b>About</b>
       </Link>
     </div>
   );
