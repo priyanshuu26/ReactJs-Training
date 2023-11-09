@@ -1,10 +1,10 @@
 import './App.css';
-import Fetch from './components/FetchUrl';
+import NameGenerator from './components/NameGenerator';
 
 function App() {
   return (
     <div className="App">
-      <Fetch />
+      <NameGenerator />
     </div>
   );
 }
