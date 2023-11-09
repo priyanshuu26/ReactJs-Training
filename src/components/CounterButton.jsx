@@ -6,14 +6,9 @@ function CounterButton() {
     <>
       <h3>Counter Button</h3>
       <p>
-        <button onClick={() => setValue(value + 1)} style={{ margin: '20px' }}>
-          +1
-        </button>
-
+        <button onClick={() => setValue(value + 1)}>+1</button>
         {value}
-        <button onClick={() => setValue(value - 1)} style={{ margin: '20px' }}>
-          -1
-        </button>
+        <button onClick={() => setValue(value - 1)}>-1</button>
       </p>
     </>
   );
