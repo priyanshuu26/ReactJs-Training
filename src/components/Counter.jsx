@@ -6,8 +6,8 @@ function Counter() {
     <>
       <button type="button" onClick={() => setValue(value + 1)}>
         +1
-      </button>{' '}
-      <button type="button" onClick={() => setValue(value - 11)}>
+      </button>
+      <button type="button" onClick={() => setValue(value - 1)}>
         -1
       </button>
     </>
